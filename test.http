@@ -1,0 +1,14 @@
+### Test 1: Tambah Data (POST)
+POST http://localhost:8080/api/ktp
+Content-Type: application/json
+
+{
+  "nomorKtp": "1234567890",
+  "namaLengkap": "Budi Santoso",
+  "alamat": "Jakarta Pusat",
+  "tanggalLahir": "1990-01-01",
+  "jenisKelamin": "Laki-laki"
+}
+
+### Test 2: Lihat Semua Data (GET)
+GET http://localhost:8080/api/ktp
